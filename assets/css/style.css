@@ -1,0 +1,251 @@
+/* custom css for news app */
+
+/* ============================================
+GENERAL STYLES
+=============================================== */
+
+html, body {
+    height: 100%;
+    background-image: url('../images/grey_wash_wall.png');
+}
+
+.container {
+    background-color: #f2f2f2;
+}
+
+.container-fluid {
+    background-color: #d9d9d9;
+}
+
+img {
+    width: 100%;
+}
+
+/* ============================================
+TYPOGRAPHY
+=============================================== */
+
+.jumbotron {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.0 px;
+}
+
+h4, h5, h6, p {
+    font-family: 'Oswald', sans-serif;
+    color: #141414;
+}
+
+p {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.summary {
+    font-family: 'Pragati Narrow', sans-serif;
+    font-size: 125%;
+}
+
+.title {
+    font-family: 'Crimson Text', serif;
+    font-weight: bold;
+    color: #692525;
+}
+
+/* ============================================
+LINKS
+=============================================== */
+
+/* home/search page */
+
+#headlinesContainer a {
+    text-decoration: none;
+}
+
+#top-headlines a {
+    text-decoration: none;
+    color: #692525;
+}
+
+/* archive page */
+
+.title-link {
+    /* font-size: 20px; */
+    color: #692525;
+}
+
+a {
+    color: #250808;
+}
+
+a:hover {
+    color: #692525;
+    transition: all, 0.5s;
+}
+
+.title-link:hover {
+    text-decoration: none;
+    color: #250808;
+    transition: all, 0.3s;
+}
+
+.home-link {
+    border-right: 1px solid #250808;
+    border-left: 1px solid #250808;
+}
+
+.home-link:hover {
+    color: #d9d9d9;
+}
+
+
+
+/* ============================================
+BUTTONS
+=============================================== */
+
+.btn {
+    background-color: #4CAF50;
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #3e8e41;
+    transition: all, 0.5s;
+}
+
+.btn-close {
+    background-color: #930000;
+}
+
+.archive-button {
+    padding: 0 10px;
+    font-family: 'Crimson Text', serif; 
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 1px #999;
+    }
+    
+ .archive-button:hover {
+    background-color: #3e8e41;
+    transition: all, 0.5s;
+}
+
+/* ============================================
+MODALS
+=============================================== */
+
+.modal-body {
+    background-color: #141414;
+    color: #fff;
+}
+
+label {
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+    letter-spacing: 0.9px;
+}
+
+/* ============================================
+NAVBAR
+=============================================== */
+
+.navbar {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    background-color: #f2f2f2;
+}
+
+.navbar-light .navbar-nav .active>.nav-link:hover {
+    color: #d9d9d9;
+    transition: all, 0.5s;
+}
+
+.navbar-brand {
+    font-size: 28px;
+}
+
+/* ============================================
+HOME PAGE - SEARCH
+=============================================== */
+
+.top-headlines-container {
+    height: 100%;
+}
+
+.main-hr {
+    width: 50%;
+}
+
+.appendedRow:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+    border-bottom: 2px solid #bfbfbf; 
+ }
+
+.giphy-image {
+    height: 185px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.search {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#submit-btn {
+    margin-top: -5px;
+}
+
+/* ============================================
+ARCHIVE PAGE
+=============================================== */
+
+.archive-div:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+    border-bottom: 2px solid #bfbfbf; 
+ }
+
+.category-header {
+    color: #4CAF50;
+}
+
+.category-link .nav-link {
+    font-family: 'Pragati Narrow', sans-serif;
+    font-size: 125%;
+    letter-spacing: 0.7px;
+}
+
+.category-title {
+    font-family: 'Oswald', sans-serif;
+    color: #4CAF50;
+}
+
+.archive-title {
+    color: #692525;
+}
+
+.svg-inline--fa.fa-w-10 {
+    color: #692525;
+}
+
+.svg-inline--fa.fa-w-10:hover {
+    cursor: pointer;
+}
