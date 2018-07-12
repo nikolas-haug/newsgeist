@@ -17,7 +17,7 @@ We want to allow the user to find news articles from a wide variety of sources. 
 
 * Bootstrap
 * Firebase (open database)
-* NewsAPI (<newsapi.org>)
+* NewsAPI (<https://newsapi.org>)
 * Giphy API (<https://developers.giphy.com/>)
 
 ## Contributors
