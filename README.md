@@ -4,7 +4,10 @@ NewsGeist is a news aggregator designed to return headlines to its users from a 
 
 ## Motivation
 
-We want to allow the user to find news articles from a wide variety of sources. Pairing the articles retrieved from <newsapi.org> with the randomized images from the **giphy** API, we want to further distort the user's expectations when searching the web for the world's news. The option to rate and categorize the articles viewed provides a means to filter news through user discretion. 
+We want to allow the user to find news articles from a wide variety of sources. Pairing the articles retrieved from NewsApi.org with the randomized images from the Giphy Api, we want to further distort the user's expectations when searching the web for the world's news. The option to rate and categorize the articles viewed provides a means to filter news through user discretion. 
+
+[NewsApi.org]: https://newsapi.org/
+[Giphy Api]: https://developers.giphy.com/
 
 ### link to project:
 
