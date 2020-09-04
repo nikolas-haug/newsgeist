@@ -41,7 +41,7 @@ $(document).ready(function () {
 
         for(var i = 0; i < 3; i++){
 
-        var queryURL = "https://newsapi.org/v2/top-headlines?category=" + category[i] + "&country=us&pageSize=1&apiKey=74d6b77d1eb642faa1a0732f4fff60a2";
+        var queryURL = "https://newsapi.org/v2/top-headlines?category=" + category[i] + "&country=us&pageSize=1&apiKey=8f648fabfb73464184ecb3df91ad60f5"
         $.ajax({
             url: queryURL,
             method: "GET"
